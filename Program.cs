@@ -19,7 +19,6 @@ int CountingStrings(string[] arr) // метод подсчета строк в �
 string[] newArray = new string[CountingStrings(array)]; //вводим новый массив размерность count
 
 int j = 0;
-
 for (int i = 0; i < array.Length; i++)
 {
     if (array[i].Length <= 3)
