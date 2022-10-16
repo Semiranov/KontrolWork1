@@ -45,7 +45,8 @@ for (int i = 0; i < array.Length; i++)
     }
 }
 ```
-*Выводим новый массив на экран*
+*Выводим исходный и новый массив на экран*
 ```C#
+Console.WriteLine("Исходный массив: " + string.Join(", ", array));
 Console.WriteLine(string.Join(", ", newArray));
 ```
