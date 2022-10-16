@@ -27,5 +27,5 @@ for (int i = 0; i < array.Length; i++)
         j++;
     }
 }
-
-Console.WriteLine(string.Join(", ", newArray));  //выводим новый массив на экран
+Console.WriteLine("Исходный массив: " + string.Join(", ", array));  //выводим массив на экран
+Console.WriteLine("Новый массив со строками <= 3 символами: " + string.Join(", ", newArray));  //выводим новый массив на экран
